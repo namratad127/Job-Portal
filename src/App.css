@@ -1,0 +1,16 @@
+.app {
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+
+.content {
+  display: flex;
+  padding: 20px;
+}
+
+.job-list {
+  flex: 2;
+  margin-left: 20px;
+}

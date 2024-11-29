@@ -1,0 +1,50 @@
+.job-card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.job-card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.in-office {
+  color: #fff;
+  background: #007bff;
+  padding: 5px 10px;
+  border-radius: 12px;
+}
+
+.company {
+  color: #555;
+}
+
+.job-info,
+.location {
+  display: flex;
+  gap: 10px;
+  margin: 10px 0;
+  font-size: 14px;
+  color: #777;
+}
+
+.key-skills {
+  font-weight: bold;
+}
+
+.action-buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+.apply-button {
+  background: #007bff;
+  color: white;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
